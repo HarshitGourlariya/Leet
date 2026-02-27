@@ -6,7 +6,7 @@ int main()
  string s;
  cin >>s;
 
- map<int,int> mpp;
+ map<char,int> mpp;
 
  for(int i=0;i<s.size();i++)
  {
@@ -15,7 +15,7 @@ int main()
 
  int q;
  cin >> q;
- 
+
  while(q--)
  {
     char p;

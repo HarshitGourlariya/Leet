@@ -19,7 +19,7 @@ int main()
     }
 
 
-map<int,int> mpp; // kya data type hoga and variable define kr diya hai. 
+unordered_map<int,int> mpp; // kya data type hoga and variable define kr diya hai. 
 
 for(i=0;i<n;i++)
 {
@@ -37,3 +37,13 @@ while(q--)
 }
 
 // Map stores the value in sorted order.
+// time complexity of map in storing in fetching is logn.
+// unordered map bss sorted order mai nhi krta hai store.
+// unordered map ki for storing and fetching avg, TC and best TC hoti hai O(1).
+// in worst case it ends up taking 0(n).
+
+/*
+Important note:
+always use unorderd map if the time limit exceeds then use map 
+
+*/
