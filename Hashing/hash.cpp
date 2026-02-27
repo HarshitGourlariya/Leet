@@ -22,11 +22,11 @@ int main()
     }
 
     int q;
-    cin >> q; // ye value dege ki loop kitni baar chlega 
-    while(q--)
+    cin >> q; // ye value dege ki loop kitni baar chlega  esko maane number of test case jaisa ki phele 1 ke liye dekh liya then 2 ke
+    while(q--) // liye bhi dekh liya as q ki value 2 set ki thi 
     {
          int num;   // then edhar value dere hai ki hmko ye number dekhna hai ki kitni baar aaya hai. 
          cin >> num;
          cout << hash[num] << endl;
-    }
+    } 
 }
