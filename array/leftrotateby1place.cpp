@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// ROTATE THE ARRAY LEFT BY ONE PLACE.....
 int main()
 {
     int n,i,k,j;
