@@ -15,14 +15,14 @@ int window_sum=0;
     for(i=0;i<n;i++)
     {
         window_sum += arr[i];
-       cout << window_sum << " ";
+      
 
-        while(window_sum==k)
+        while(window_sum>k)
         {
             window_sum -= arr[left];
             left++;
         }
-        
+        if(window_sum==k)
         max_len= max(max_len,i-left+1);
 
         
