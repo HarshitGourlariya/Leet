@@ -5,6 +5,6 @@ int main()
 {
     string s;
     getline(cin,s);
-    reverse(s.begin(),s.end());
+    reverse(s.begin(),s.end()); // using function 
     cout << s;
 }
