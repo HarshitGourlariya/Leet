@@ -17,7 +17,15 @@ int voting(int arr[],int n)
         else
         count--;
     }
-    return candidate;
+    count =0;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==candidate)
+        count++;
+        if(count > n/2)
+        return candidate;
+    }
+    return -1;
 }
 int main()
 {
