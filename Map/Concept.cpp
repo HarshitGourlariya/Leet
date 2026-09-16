@@ -35,7 +35,16 @@ while(q--)
     cout << mpp[arr[num]] << endl;
 }
 }
+//AUTO
+/*
+for(auto p:mpp)
+{
+if(p,second>1)
+do something 
 
+-> so ye use hota hai access krne ke liye frequency ko p.second is like map<p.first,p.second> 
+}
+*/
 // Map stores the value in sorted order.
 // time complexity of map in storing in fetching is logn.
 // unordered map bss sorted order mai nhi krta hai store.
